@@ -1,0 +1,21 @@
+{
+    "baseUrl": "http://0.0.0.0",
+    "port": 9000,
+    "workerCorePool" : 64,
+    "workerMaxPool": 128,
+    "driverClassName": "com.mysql.jdbc.Driver",
+    "url": "jdbc:mysql://10.34.48.41:3306/article?characterEncoding=utf-8",
+    "username": "db_user",
+    "password": "db_user",
+    "partitionCount": 1,
+    "maxConnectionsPerPartition": 300,
+    "minConnectionsPerPartition": 100,
+    "autocommit": false,
+    "readOnly": false,
+    "isolation": "READ_COMMITTED",
+    "acquireIncrement": 1,
+    "acquireRetryAttempts": 1,
+    "acquireRetryDelay": "5 seconds",
+    "connectionTimeout": 1000,
+    "idleMaxAge": 100
+}
